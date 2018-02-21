@@ -1,0 +1,78 @@
+
+/*
+#------Project style info ---#
+#
+# The CSS should apply these styles to match the design prototype:
+# italicized text for the animal's interesting fact
+# bolded labels for the animal's list items (e.g. 'Habitat')
+# no dots for the animal's list items
+# border around the animal's name, image, and information
+# border around the animal's information
+# spacing between the animal's name, image, and information 
+(you will need to use the property padding)
+# feel free to customize your information and 
+styles so long as you follow the above rules
+#For inspiration, you can try playing around with 
+background colors or border radius!
+
+*/
+
+/*
+  * {
+    margin: 0;
+    padding: 0;
+
+  }
+*/
+body{
+  background-color: #fff;
+}
+
+.animal-cards {
+  margin: auto;
+  border: 1px solid #f0f0f0;
+  border-radius: 1em;
+  max-width: 320px;
+  box-shadow: 6px 6px 3px -1px rgba(240,240,240,1);
+  -webkit-box-shadow: 6px 6px 3px -1px rgba(240,240,240,1);
+  -moz-box-shadow: 6px 6px 3px -1px rgba(240,240,240,1);
+}
+
+.animal-name {
+  padding: 10px;
+}
+
+.tiger-picture {
+  padding: 10px;
+  max-width: 300px;
+  border-radius: 1em;
+}
+
+.bengal-tiger-info {
+  border: 1px solid #f0f0f0;
+  border-radius: 1em;
+  margin: 10px;
+  padding: 10px;
+}
+
+.interesting-fact {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.list-item {
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+ul>li {
+  list-style-type: none;
+}
+
+li span {
+  font-weight: bold;
+}
+
+.description {
+   margin-top: 10px;
+}
